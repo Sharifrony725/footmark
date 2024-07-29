@@ -1,0 +1,130 @@
+/*Tablet Screen*/
+
+@media (max-width: 799px) {
+
+  #header .icons-section{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px;
+    right: -500px;
+    height: 200vh;
+    width: 400px;
+    background-color: white;
+    padding: 80px 0px 0px 20px;
+    z-index: 100; 
+    transition: 0.25s;
+  }
+
+  #header .icons-section.active{
+    right: 0px;
+  }
+
+  #header .icons-section .icon{
+    margin-bottom: 40px;
+  }
+
+  .cart-show{
+    display: none;
+  }
+
+  #header .mobile-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 60px;
+  }
+
+  .mobile-section .icon{
+    margin-right: 25px;
+  }
+
+  .bottom-header{
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 80px;
+    right: -400px;
+    z-index: 101;
+    transition: 0.25s;
+  }
+
+  .bottom-header.active{
+    right: 200px;
+  }
+
+  .bottom-header li{
+    margin-bottom: 30px;
+  }
+
+  #close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #hero .hero-text{
+    top: 130px;
+  }
+  
+  #product-1 .pro{
+    width:46% ;
+  }
+
+  #banner{
+    flex-direction: column;
+  }
+
+  #banner .banner-box1{
+    width: 690px;
+    height: 360px;
+  }
+
+  #banner .banner-2{
+    width: 700px;
+  }
+
+  #banner .banner-box2,
+  #banner .banner-box3{
+    width: 100%;
+  }
+
+  #banner .banner-2{
+    justify-content: center;
+  }
+
+  #banner .banner-box3{
+    padding-top: 0px;
+  }
+
+  #newsletter{
+    flex-direction: column;
+    margin-right: 0px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #newsletter .form{
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  /*Contact Page*/
+  #form-details{
+    padding: 20px;
+   
+  }
+  
+
+  #form-details form{
+    width:50%;
+  }
+
+
+
+}

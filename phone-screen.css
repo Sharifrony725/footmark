@@ -1,0 +1,150 @@
+@media (max-width: 477px){
+  body{
+    overflow-x: hidden;
+  }
+
+  #header .icons-section.active{
+    right: -30px;
+  }
+
+  #header{
+    margin-bottom: 25px;
+  }
+
+  #header .logo{
+    margin-left: 0px;
+  }
+
+  #header .logo h4{
+    font-size: 13px;
+  }
+
+  #header .mobile-section{
+    margin-right: 10px;
+  }
+
+  .mobile-section .icon{
+    margin-right: 10px;
+  }
+
+  #hero{
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: auto;
+  }
+
+  #hero img{
+    height: 500px;
+  }
+
+  #hero .hero-text{
+    top: 200px;
+    left: 40px;
+  }
+
+  #hero .hero-text h2{
+    font-size: 20px;
+    color: white;
+  }
+
+  #hero .text{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+
+  #hero button{
+    padding: 8px 14px;
+  }
+
+  #brands{
+    width: 100%;
+  }
+
+  #brands .brands-info{
+    width: 95%;
+    overflow-x: auto;
+  }
+
+  #brands .brands-info::-webkit-scrollbar{
+    width: 0px;
+  }
+
+  #brands .indi-brand{
+    margin-right: 20px;
+  }
+
+  #brands img{
+    width: 30px;
+  }
+  
+  #brands p{
+    text-wrap: nowrap;
+    font-size: 12px;
+  }
+
+  #product-1 .pro{
+    width:92% ;
+  }
+
+  #banner{
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  #banner .banner-box1{
+    width: 350px;
+    height: 360px;
+  }
+
+  #banner .banner-2{
+    width: 360px;
+  }
+
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #prodetails .single-pro-image{
+    width: 100%; 
+  }
+
+  #prodetails .single-pro-details{
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  /*Contact Page*/
+  #form-details{
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+
+  #form-details form{
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+
+  /*CART PAGE*/
+  #cart-add{
+    flex-direction: column;
+  }
+
+  #coupon{
+    width: 100%;
+  }
+ 
+
+  #subtotal{
+    padding: 30px;
+    width: 80%;
+  }
+
+    
+}
